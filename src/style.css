@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer components{
+     .btn{
+         @apply flex items-center gap-1 font-[700] text-white bg-green-700 py-1.5 px-3 rounded-2xl text-sm;
+     }
+     .ability_card{
+         @apply  w-[300px] h-[400px] flex justify-center items-center overflow-hidden rounded-xl;
+     }
+     .ability_card .ineer{
+         @apply w-[97%] h-[98%] bg-black overflow-hidden rounded-xl justify-center items-center flex flex-col ;
+     }
+     .ability_card .ineer h1{
+         @apply text-4xl;
+
+     }
+     .service_card{
+         @apply rounded-md flex flex-col items-center justify-center gap-5 border-2 border-gray-700 w-[300px] h-[350px];
+     }
+     .card_ex{
+         @apply flex bg-gray-800 items-center justify-around p-4 h-24 rounded-xl res_menu:h-auto res_menu:flex-wrap res_menu:px-3 my-4;
+     }
+    
+ }
+ 
+
+ /*   <div class="header flex h-[70px] bg-red-600 justify-between items-center  fixed top-0 res_menu:right-0 res_menu:w-[70%] ">
+         <div class="left flex items-center gap-1 w-[25%] justify-center">
+             <img  class="h-[50px] w-[50px] rounded-full"  src="../image/logo.png">
+             <h1 class="font-bold text-sky-50 text-4xl">Elito.</h1>
+         </div>
+         <div class="center res_menu:hidden w-[50%] flex justify-center">
+             <ul class="flex gap-2 text-[20px] text-white font-medium">
+             <li>Home</li>
+             <li>About</li>
+             <li>Servuce</li>
+             <li>Porfolia</li>
+             <li>Contact</li>
+             <li>Blog</li>
+             </ul>
+         </div>
+         <button class=" btn hidden res_menu:fixed res_menu:block left-2 rounded-lg">
+            <ion-icon name="list-outline"></ion-icon>
+         </button>
+         <div class="right w-[25%] flex justify-center"><button class="btn ">Resume<ion-icon name="arrow-down-outline"></ion-icon></button></div>
+     </div> */
+     

@@ -1,0 +1,109 @@
+body {
+  background-color: #292826;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23292826' cx='50' cy='0' r='50'/%3E%3Cg fill='%23302c26' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23392f26' cx='50' cy='100' r='50'/%3E%3Cg fill='%23423226' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%234c3528' cx='50' cy='200' r='50'/%3E%3Cg fill='%2356372b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2361392f' cx='50' cy='300' r='50'/%3E%3Cg fill='%236c3a35' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23763b3d' cx='50' cy='400' r='50'/%3E%3Cg fill='%23813c46' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a3e52' cx='50' cy='500' r='50'/%3E%3Cg fill='%2392405f' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2398436e' cx='50' cy='600' r='50'/%3E%3Cg fill='%239c477f' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%239d4d90' cx='50' cy='700' r='50'/%3E%3Cg fill='%239b55a3' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23955db6' cx='50' cy='800' r='50'/%3E%3Cg fill='%238a67ca' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%237972dd' cx='50' cy='900' r='50'/%3E%3Cg fill='%235c7def' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%231A89FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.header {
+  z-index: 99999 !important;
+}
+
+.ability_card {
+  background: #00d4ff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(63%, #00d4ff), color-stop(69%, black));
+  background: linear-gradient(180deg, #00d4ff 63%, black 69%);
+}
+
+.red_gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(black));
+  background: linear-gradient(180deg, red, black);
+}
+
+.red_gradient h1 {
+  color: white;
+}
+
+.red_gradient span {
+  color: red;
+}
+
+.green_gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#31e931), to(black));
+  background: linear-gradient(180deg, #31e931, black);
+}
+
+.green_gradient h1 {
+  color: white;
+}
+
+.green_gradient span {
+  color: #31e931;
+}
+
+.blue_gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c98231), to(black));
+  background: linear-gradient(180deg, #c98231, black);
+}
+
+.blue_gradient h1 {
+  color: white;
+}
+
+.blue_gradient span {
+  color: #c98231;
+}
+
+.yellow_gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(218, 255, 11, 0.959)), to(black));
+  background: linear-gradient(180deg, rgba(218, 255, 11, 0.959), black);
+}
+
+.yellow_gradient h1 {
+  color: white;
+}
+
+.yellow_gradient span {
+  color: rgba(218, 255, 11, 0.959);
+}
+
+.bl_gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1696ff), to(black));
+  background: linear-gradient(180deg, #1696ff, black);
+}
+
+.bl_gradient h1 {
+  color: white;
+}
+
+.bl_gradient span {
+  color: #1696ff;
+}
+
+.lets_talk input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px !important;
+}
+
+.lets_talk input::-webkit-input-placeholder {
+  color: white;
+}
+
+.lets_talk input:-ms-input-placeholder {
+  color: white;
+}
+
+.lets_talk input::-ms-input-placeholder {
+  color: white;
+}
+
+.lets_talk input::placeholder {
+  color: white;
+}
+
+.lets_talk input, .lets_talk textarea {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=styleB.css.map */
